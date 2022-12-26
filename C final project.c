@@ -75,7 +75,7 @@ void add_student(){
 	scanf ("%s",f[x]);
 	printf ("Enter Last Name: \n");
 	scanf ("%s",l[x]);
-	states [0]=1;
+	states [x]=1;
 	x++;
 	admin();	
 }
@@ -85,8 +85,8 @@ void view_student(){
 	system ("cls");
 	printf ("Student Number  ||   Student Name \n");
 	for (i=1;i<x;i++){
-	printf ("%d                    %s %s \n",w++,f[i],l[i]);
-	if (states[i]==1){	
+	if (states[i]==1){
+	printf ("%d                    %s %s \n",w++,f[i],l[i]);	
 	}
 	} 
 	printf ("\n1. Admin Menu\n2. Exit\nEnter your choice:");
