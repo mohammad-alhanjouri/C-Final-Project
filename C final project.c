@@ -132,5 +132,3 @@ void student (){
 		exit(0);	
 	}
 }
-
-
