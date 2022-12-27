@@ -85,7 +85,7 @@ void view_student(){
 	for (i=1;i<x;i++){
 	if (states[i]==1){
 	printf ("      %d             %s %s \n",w++,f[i],l[i]);
-	printf ("...................................................");
+	printf ("...................................................\n");
 	}
 	} 
 	printf ("\n1. Admin Menu\n2. Exit\nEnter your choice:");
