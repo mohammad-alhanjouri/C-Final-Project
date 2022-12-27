@@ -79,12 +79,12 @@ void add_student(){
 }
 
 void view_student(){
-	int w=1,i,z;
+	int i,z;
 	system ("cls");
 	printf ("Student Number  ||    Student Name \n");
 	for (i=1;i<x;i++){
 	if (states[i]==1){
-	printf ("      %d             %s %s \n",w++,f[i],l[i]);
+	printf ("      %d             %s %s \n",i,f[i],l[i]);
 	printf ("...................................................\n");
 	}
 	} 
